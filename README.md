@@ -27,7 +27,9 @@ Now we want to connect to the Git provider, select Github
 The following page will allow you to select any repos in your Github account. Search and select the repo you wish to deploy. 
 ![Screen Shot 2022-11-07 at 2 35 03 PM](https://user-images.githubusercontent.com/100215009/200398694-351d342b-39f4-4d44-8b84-b2a39a6ce189.png)
 
-Now we want to give Netlify a few instructions when deploying your site. In the base directory section add the name of your react app, NOT your root directory/GitHub repo name. In the build command section include 'npm run build', and for your publish directory 'build'. 
+Now we want to give Netlify a few instructions when deploying your site. In the base directory section add the name of your react app, NOT your root directory/GitHub repo name. In the build command section include 'npm run build', and for your publish directory 'build'.  
+
+Note - if you are using an app created on Vite, change "build" to "dist"
 ![Screen Shot 2022-11-07 at 2 36 26 PM](https://user-images.githubusercontent.com/100215009/200419058-db45d9b3-0130-4cdc-a3d1-1f10387aaa69.png)
 Now you can select deploy site. This will bring you to the following page:
 
