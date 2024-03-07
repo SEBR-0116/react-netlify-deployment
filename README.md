@@ -1,4 +1,4 @@
-# react-netlify-deployment
+# React Netlify deployment
 
 ## Getting Started 
 
