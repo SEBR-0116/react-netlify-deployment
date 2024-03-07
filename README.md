@@ -1,7 +1,19 @@
 # react-netlify-deployment
 
 ## Getting Started 
-First create your own Netlify account. Signing up with Github is recommended for easy deployment, and is the method this guide is following. 
+
+Before we begin, lets go into our app's folder and touch a file called `_redirects`. Like our .env and .gitignore it doesn't get a standard name, it simply is called "_redirects". Don't forget the underscore!
+
+In your _redirects folder, which is a sibling to your index.html file, add in this line of code:
+```
+/* /index.html 200
+```
+
+This will set a redirect to your index.html file and allow your routes to load correctly if you send over anything besides the landing page.
+
+Once we have this set, lets get started. Run "npm run build" in your root directory to create a new folder called "dist", which will give us all of the tools necessary to deploy the page.
+
+Once our files are complete and pushed to git, create your own Netlify account. Signing up with Github is recommended for easy deployment, and is the method this guide is following. 
 ![Screen Shot 2022-11-07 at 2 28 49 PM](https://user-images.githubusercontent.com/100215009/200397628-f129e2eb-687d-4c9e-ba84-ca246aa4eb10.png)
 
 After creating an account, there will be a few user questions. Follow through the prompts until you get to this page:
