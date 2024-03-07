@@ -2,9 +2,9 @@
 
 ## Getting Started 
 
-Before we begin, lets go into our app's folder and touch a file called `_redirects`. Like our .env and .gitignore it doesn't get a standard name, it simply is called "_redirects". Don't forget the underscore!
+Before we begin, lets go into our app's main folder and touch a file called `_redirects`, which will be a sibling to your package.json and index.html files, and your public and src folders. Like our .env and .gitignore it doesn't get a standard name, it simply is called "_redirects". Don't forget the underscore!
 
-In your _redirects folder, which is a sibling to your index.html file, add in this line of code:
+In your _redirects file, which is a sibling to your index.html file, add in this line of code:
 ```
 /* /index.html 200
 ```
